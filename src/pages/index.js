@@ -75,7 +75,7 @@ const IndexPage = () => (
       <StaticImage
         src="../images/example.png"
         loading="eager"
-        width={64}
+        width={100}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
@@ -109,12 +109,6 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
   </Layout>
 )
 
@@ -123,6 +117,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Ivan Cruz" />
 
 export default IndexPage

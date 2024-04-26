@@ -49,6 +49,7 @@
 }
 
 .intro {
-  max-width: none;
-  line-height: var(--line-height-loose);
+  padding-top: 20%;
+  max-width: 670px;
+  height: calc(100vh - 160px);
 }

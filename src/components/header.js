@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <p>Ivan Cruz</p>
+    <Link to="/">Ivan Cruz</Link>
     <ButtonMailto label="Get in touch" mailto={"mailto:ivan.cruz@gmail.com"} />
     
   </header>
